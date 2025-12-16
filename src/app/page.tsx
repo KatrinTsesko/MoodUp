@@ -21,17 +21,20 @@ export default function Home() {
 
   return (
     <BackgroundGradientAnimation>
-      <div className="absolute inset-0 z-50 flex items-start justify-center overflow-y-auto px-1 py-0 sm:px-2 sm:py-0.5">
-        <div className="mx-auto mt-0 mb-2 flex w-full max-w-md flex-col gap-1 rounded-3xl bg-black/40 px-2 pt-0 pb-3 text-white shadow-xl backdrop-blur-md sm:mt-0.5 sm:max-w-2xl sm:gap-1.5 sm:px-3 sm:pt-0 sm:pb-4 md:max-w-3xl md:px-4 md:pt-0 md:pb-4">
-          <header className="flex flex-col items-center gap-0 text-center md:gap-1">
+      <div className="absolute inset-0 z-50 flex items-start justify-center overflow-y-auto px-1 py-3 sm:px-2 sm:py-4">
+        <div className="mx-auto mt-4 mb-2 flex w-full max-w-md flex-col gap-1 rounded-3xl bg-black/40 px-2 pt-0 pb-3 text-white shadow-xl backdrop-blur-md sm:mt-8 sm:max-w-2xl sm:gap-1.5 sm:px-3 sm:pt-0 sm:pb-4 md:mt-10 md:max-w-3xl md:px-4 md:pt-0 md:pb-4">
+          <header className="flex flex-col items-center gap-1 text-center md:gap-1.5">
             <Image
               src="/logo.svg"
               alt="MoodUp логотип"
               width={320}
               height={320}
-              className="-mt-1 -mb-1 h-62 w-62 sm:h-44 sm:w-44 md:h-56 md:w-56 filter invert"
+               className="mt-3 mb-3 h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 filter invert"
             />
-            <p className="text-sm font-medium text-white/90 sm:text-base -mt-1">
+            <p className="bg-[linear-gradient(90deg,#fed7aa,#f9a8d4,#c7d2fe,#bae6fd,#e9d5ff)] bg-clip-text text-2xl font-bold tracking-tight text-transparent sm:text-3xl -mt-0.5">
+              MoodUp
+            </p>
+            <p className="text-sm font-medium text-white/90 sm:text-base -mt-0.5">
               Выбери действие — получи импульс
             </p>
             <p className="text-xs leading-relaxed text-white/80 sm:text-sm">
